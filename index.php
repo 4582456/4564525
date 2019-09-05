@@ -27,6 +27,7 @@
 <script src="https://my.visme.co/js/jquery.mobile.custom.min.js"></script>
 <script type="text/javascript">
 
+
       $( document ).ready(function() {
 
         var viewportmeta = document.querySelector('meta[name="viewport"]');
@@ -368,7 +369,7 @@ border-top-left-radius: 50% 50%;
 </div>
 <div class="ui-standard-el" id="comments">
 <button class="show-comments">Show comments</button>
-<script data-cfasync="false" src="https://my.visme.co/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 
   $(document).ready(function() {
       $('.show-comments').on('click', function(){
@@ -1433,7 +1434,7 @@ style="
         app.bootstrap('screenshot', "http:\/\/static.visme.co\/08\/e5\/4c\/5d\/89e3dd4df6a2b3c8429604351bfb6635_f.jpg" );
         app.bootstrap('project_name', "Untitled Project" );
         app.bootstrap('project_date', 1567658516 );
-        app.bootstrap('project_data', "{\"width\":800,\"height\":500,\"colorPallete\":[{\"color\":\"#CF000F\"},{\"color\":\"#4183D7\"},{\"color\":\"#F7CA18\"},{\"color\":\"#913D88\"},{\"color\":\"#26A65B\"},{\"color\":\"#E67E22\"},{\"color\":\"#2B2B2B\"},{\"color\":\"#F2F2F2\"}],\"template\":\"ah-LljDqFqlzHsrpw0ipBL-hN4RK8e8WvWR_pEMKvnA=\",\"templateTypeId\":0,\"templateType\":\"\",\"templatePalette\":\"none\",\"slides\":[{\"id\":\"sl1\",\"name\":\"Slide 1\",\"type\":\"regular\",\"order\":0,\"width\":800,\"height\":500,\"hidden\":false,\"editable\":true,\"transition\":{\"effect\":\"fade\",\"duration\":0.5,\"type\":\"onclick\"},\"background\":{\"blur\":0,\"brightness\":0,\"colorOverlay\":0,\"contrast\":0,\"filter\":\"no-filter\",\"scale\":100,\"flipX\":false,\"flipY\":false,\"color\":[\"#ffffff\"],\"height\":0,\"hue\":0,\"opacity\":100,\"saturate\":0,\"type\":\"solid\",\"width\":0,\"x\":-5,\"y\":-5},\"objects\":[{\"type\":\"iframe\",\"height\":456.75569520817,\"width\":799.3224666143,\"src\":\"https:\\\/\\\/fast.wistia.net\\\/embed\\\/iframe\\\/ovv7i2skqv?seo=false&videoFoam=true\",\"id\":\"el1\",\"y\":12,\"name\":\"iframe\",\"frameBorder\":\"0\",\"allowFullScreen\":\"\",\"iframeClass\":\"wistia_embed\",\"allowScroll\":false,\"order\":0}]}]}" );
+        app.bootstrap('project_data', "{\"width\":800,\"height\":500,\"colorPallete\":[{\"color\":\"#CF000F\"},{\"color\":\"#4183D7\"},{\"color\":\"#F7CA18\"},{\"color\":\"#913D88\"},{\"color\":\"#26A65B\"},{\"color\":\"#E67E22\"},{\"color\":\"#2B2B2B\"},{\"color\":\"#F2F2F2\"}],\"template\":\"ah-LljDqFqlzHsrpw0ipBL-hN4RK8e8WvWR_pEMKvnA=\",\"templateTypeId\":0,\"templateType\":\"\",\"templatePalette\":\"none\",\"slides\":[{\"id\":\"sl1\",\"name\":\"Slide 1\",\"type\":\"regular\",\"order\":0,\"width\":800,\"height\":500,\"hidden\":false,\"editable\":true,\"transition\":{\"effect\":\"fade\",\"duration\":0.5,\"type\":\"onclick\"},\"background\":{\"blur\":0,\"brightness\":0,\"colorOverlay\":0,\"contrast\":0,\"filter\":\"no-filter\",\"scale\":100,\"flipX\":false,\"flipY\":false,\"color\":[\"#ffffff\"],\"height\":0,\"hue\":0,\"opacity\":100,\"saturate\":0,\"type\":\"solid\",\"width\":0,\"x\":-5,\"y\":-5},\"objects\":[{\"type\":\"iframe\",\"height\":456.75569520817,\"width\":799.3224666143,\"src\":\"https:\\\/\\\/fast.wistia.net\\\/embed\\\/iframe\\\/r8050ihiw6?seo=false&videoFoam=true\",\"id\":\"el1\",\"y\":12,\"name\":\"iframe\",\"frameBorder\":\"0\",\"allowFullScreen\":\"\",\"iframeClass\":\"wistia_embed\",\"allowScroll\":false,\"order\":0}]}]}" );
         app.bootstrap('project_type', "blockinfographic" );
         app.bootstrap('project_version', "4" );
         app.bootstrap('visibility', "Published" );
